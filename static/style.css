@@ -1,0 +1,53 @@
+.error {
+  color: red
+}
+a {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  background: orange;
+  color: white
+}
+a:hover {
+  font-size: 30px;
+  color: red
+}
+label {
+  font-size: 20px;
+  display: block;
+}
+label + label {
+  margin-top: 20px;
+}
+input[type=text] {
+  font-family: monospace;
+  width: 500px;
+  font-size: 20px;
+}
+textarea {
+  font-size: 17px;
+  font-family: monospace;
+  width: 500px;
+  height: 400px;
+
+}
+input[type=submit] {
+  font-size: 22px;
+}
+
+.post-heading {
+  position: relative;
+  border-bottom: 3px solid #666;
+}
+
+.post-subject {
+  font-size: 24px;
+  font-weight: bold;
+}
+.post-time {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
